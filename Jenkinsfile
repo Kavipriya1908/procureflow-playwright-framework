@@ -4,8 +4,6 @@ pipeline {
     environment {
         BASE_URL       = 'https://sellus.us'
         API_BASE_URL   = 'https://api.sellus.us'
-        VALID_EMAIL    = credentials('procureflow-email')
-        VALID_PASSWORD = credentials('procureflow-password')
     }
 
     stages {
