@@ -1,0 +1,7 @@
+{
+  "invalid_logins": [
+    {"case": "wrong password", "email": "qa.invalid.user@example.com", "password": "WrongPass123"},
+    {"case": "unknown user", "email": "no.such.user@example.com", "password": "Test@12345"},
+    {"case": "sql injection", "email": "' OR '1'='1", "password": "anything"}
+  ]
+}
